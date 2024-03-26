@@ -42,7 +42,7 @@ export default function RootLayout({
       data-theme="forest"
       className={cx(GeistSans.variable, GeistMono.variable)}
     >
-      <body className="antialiased max-w-2xl mb-40 flex flex-col md:flex-row mx-4  mt-8 lg:mx-auto">
+      <body className="antialiased max-w-2xl mb-40 flex flex-col mx-4  mt-8 lg:mx-auto">
         <Navbar />
         {children}
       </body>
