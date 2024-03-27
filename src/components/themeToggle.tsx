@@ -24,7 +24,7 @@ export const ThemeToggle = () => {
 
   return (
     <button
-      className="theme-toggle"
+      className="p-2 ml-2 hover:bg-base-300 rounded-box transition-all duration-300 ease-in"
       onClick={toggleTheme}
       aria-label={`Switch to ${nextTheme} mode`}
     >

@@ -34,7 +34,7 @@ const navItemsList: NavItem[] = [
 export function Navbar() {
   return (
     <nav>
-      <div className="menu pl-0 bg-base-200 menu-horizontal lg-horizontal mb-16 tracking-tight rounded-box">
+      <div className="menu p-2 bg-base-200 menu-horizontal lg-horizontal mb-16 tracking-tight rounded-box">
         {navItemsList.map((navItem) => (
           <NavItem item={navItem} key={navItem.name} />
         ))}
@@ -44,10 +44,10 @@ export function Navbar() {
   );
 }
 
-export function NavItem({ item, children }: NavItemProps) {
+export function NavItem({ item }: NavItemProps) {
   const { name } = item;
   return (
-    <li>
+    <li className="ml-2">
       <Link href={item.path}>{name}</Link>
     </li>
   );

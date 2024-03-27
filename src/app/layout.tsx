@@ -19,6 +19,14 @@ export const metadata: Metadata = {
     siteName: 'Janvier Uwiragiye',
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: 'https://uwiragiye.com/images/janvier.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Janvier Uwiragiye',
+      },
+    ],
   },
 };
 
