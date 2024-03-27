@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://uwiragiye.com/images/janvier.jpg',
+        url: 'https://uwiragiye.com/images/home/janvier.jpg',
         width: 1200,
         height: 630,
         alt: 'Janvier Uwiragiye',
