@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { GeistMono } from 'geist/font/mono';
 import { GeistSans } from 'geist/font/sans';
 import './globals.css';
-import { Navbar } from './components/nav';
+import { Navbar } from '@/components/nav';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://uwiragiye.com'),

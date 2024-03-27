@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import { ThemeToggle } from './themeToggle';
 
 type NavItem = {
   name: string;
@@ -32,11 +33,14 @@ const navItemsList: NavItem[] = [
 
 export function Navbar() {
   return (
-    <div className="menu pl-0 bg-base-200 menu-horizontal lg-horizontal mb-16 tracking-tight rounded-box">
-      {navItemsList.map((navItem) => (
-        <NavItem item={navItem} key={navItem.name} />
-      ))}
-    </div>
+    <nav>
+      <div className="menu pl-0 bg-base-200 menu-horizontal lg-horizontal mb-16 tracking-tight rounded-box">
+        {navItemsList.map((navItem) => (
+          <NavItem item={navItem} key={navItem.name} />
+        ))}
+        <ThemeToggle />
+      </div>
+    </nav>
   );
 }
 
