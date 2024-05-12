@@ -114,11 +114,6 @@ export default function Page() {
           </p>
         </section>
         <section>
-          Goals and Aspirations 🚀 Continuously improve my skills and stay
-          up-to-date with emerging technologies. 👥 Contribute to open-source
-          projects and collaborate with like-minded individuals. 🛠️ Build
-          innovative products that solve real-world problems. 🌟 Eventually
-          start my own tech company and make a positive impact on society.
           <h2 className="mt-8 text-xl font-medium tracking-tighter">
             Goals and Aspirations
           </h2>
