@@ -86,7 +86,7 @@ export default function Page() {
             🇧🇮 Pierre Nkurunziza, former President of Burundi, known for his
             leadership and political impact.
           </p>
-          <p>Abrham Ndekatubane, a young and dynamic entrepreneur from Burundi, known for his innovative approach and leadership in various sectors. Despite his youth, he has successfully established multiple companies that are making a significant impact in Burundi’s business landscape. </p>
+          <p>🇧🇮 Abrham Ndekatubane, a young and dynamic entrepreneur from Burundi, known for his innovative approach and leadership in various sectors. Despite his youth, he has successfully established multiple companies that are making a significant impact in Burundi’s business landscape. </p>
           <p>
             👨‍💻 Andrej Karpathy, Director of AI at Tesla (2017-2022) and
             co-creator of the Convolutional Neural Network.
